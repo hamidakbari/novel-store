@@ -1,4 +1,12 @@
 export const data = {
+  users: [
+    {
+      name: 'hamid',
+      email: 'hamid@gmail.com',
+      password: '123456',
+      favouriteBooks: [],
+    },
+  ],
   books: [
     {
       name: 'سمفونی مردگان',
@@ -40,7 +48,11 @@ export const data = {
       numberOfEditions: 'چاپ بیست و پنجم ',
       rating: 4.7,
       numReviews: 32,
-      downloadLink: '',
+      downloadLink:
+        'https://drive.internxt.com/s/file/5437f59e6e411bfbd9b6/334ed6ddb2dd14aaecfdf75911d1d0b54a6c37c93555bbd93086f697c2f698d2',
+      //'/home/hamid/Documents/Samphony Mordegan.pdf',
+      likes: 0,
+      comments: [],
     },
     {
       name: 'جای خالی سلوچ',
@@ -78,7 +90,11 @@ export const data = {
       numberOfEditions: 'چاپ بیست و هشتم',
       rating: 3.8,
       numReviews: 28,
-      downloadLink: '',
+      downloadLink:
+        'https://drive.internxt.com/s/file/15d975e97ddf76164c73/bf1e126be69690892c398c6ce4aa7a75247b4371430bd60b665a4b79b0cfbda1',
+      // '/home/hamid/Documents/saloch(aftamat.com).pdf',
+      likes: 0,
+      comments: [],
     },
     {
       name: 'بوف کور',
@@ -128,7 +144,11 @@ export const data = {
       numberOfEditions: 'چاپ بیست و هشتم',
       rating: 4.2,
       numReviews: 43,
-      downloadLink: '',
+      downloadLink:
+        'https://drive.internxt.com/s/file/249c1949e754d64f6c81/3c772c5406007c6f2d604c4fce1ed585183ffb789609a46aa11e6c224dd09695',
+      //  '/home/hamid/Documents/بوف-کور-صادق-هدایت.pdf',
+      likes: 0,
+      comments: [],
     },
     {
       name: 'سال بلوا',
@@ -166,7 +186,11 @@ export const data = {
       numberOfEditions: 'چاپ پانزدهم',
       rating: 3.6,
       numReviews: 15,
-      downloadLink: '',
+      downloadLink:
+        'https://drive.internxt.com/s/file/6c9a97041598710ad6ba/f83a2b2b2a483e046fc03d56fa20b3d25ace39e359e5922076e3f54291ddc39f',
+      // '/home/hamid/Documents/Year_Of_The_Riot_nbookcity.com.pdf',
+      likes: 0,
+      comments: [],
     },
   ],
 };

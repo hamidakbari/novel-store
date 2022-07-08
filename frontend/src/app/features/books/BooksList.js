@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container';
 export default function BooksList() {
   const dispatch = useDispatch();
   const books = useSelector(selectAllBooks);
+  console.log(books);
   const bookStatus = useSelector((state) => state.books.status);
   console.log(bookStatus);
   const bookError = useSelector((state) => state.books.error);
@@ -34,7 +35,7 @@ export default function BooksList() {
   }
   return (
     <Container>
-      <h2 className="mt-3">books</h2>
+      <h2 className="mt-3">کتاب ها</h2>
       {content}
     </Container>
   );
